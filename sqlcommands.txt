@@ -1,0 +1,19 @@
+-- File: sqlcommands.txt
+--These are the commands to make the database
+-- -- CREATE SCHEMA FILENAME "scoringProjectDB";
+--
+--      *** Create Database ***
+create database my_sadakc2_ scoringProjectDB;
+
+use my_sadakc2_scoringProjectDB;
+
+--      *** Create Table ***
+create table scoreInfo
+(
+scoreTime Varchar(10) Primary Key,
+scoreDate Varchar(15),
+scoreFile Varchar(20),
+scoreNum Int
+);
+
+-- end of source
